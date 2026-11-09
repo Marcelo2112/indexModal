@@ -10,6 +10,14 @@ botonAbrirModal.addEventListener("click",function(){
     modal.style.display = "flex";
 });
 
+const cerrarModal = document.getElementById("cerrarmodal");
+
+cerrarModal.addEventListener("click",function(){
+
+    modal.style.display = "none"
+
+})
+
 
 // botones de modal
 const botonGuardarDatos = document.getElementById("guardardatosmodal");
@@ -24,4 +32,12 @@ botonGuardarDatos.addEventListener("click", function(){
     console.log("Entrando");
     console.log("Nombre: ", nombreUsuario);
     console.log("Apellido: ", apellidoUsuario);
+
+
+    
+
+
+
 });
+
+

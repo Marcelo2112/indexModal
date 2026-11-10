@@ -33,8 +33,19 @@ botonGuardarDatos.addEventListener("click", function(){
     console.log("Nombre: ", nombreUsuario);
     console.log("Apellido: ", apellidoUsuario);
 
+    if(nombreUsuario === ""){
+        alert("El nombre no puede ser vacio");
+        return;
+    }
 
-    
+    modal.style.display = "none"
+
+
+
+
+
+
+
 
 
 
